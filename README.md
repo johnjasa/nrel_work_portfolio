@@ -71,5 +71,5 @@ This results in the highest AEP values reported for this problem yet using a met
 Here is a preliminary result showing the initial and final AEP values.
 
 <p align="center">
-  <img src="case_810.png" alt="Optimized layouts for discrete regions" width="500"/>
+  <img src="case_810.png" alt="Optimized layouts for discrete regions" width="800"/>
 </p>
