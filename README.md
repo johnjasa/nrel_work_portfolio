@@ -53,7 +53,7 @@ To both obtain a better tower design and help get me accustomed to useing WISDEM
 Pietro and Garrett helped me formulate and interpret these studies.
 
 The image below shows a comparison of optimal tower designs, highlighting which design are feasible.
-This figure, more studies, and what it means for the BAR project are contained in this slide deck I made and presented to the BAR group.
+This figure, more studies, and what it means for the BAR project are contained in [this slide deck](https://github.com/johnjasa/nrel_work_portfolio/blob/master/BAR_tower_optimization_results.pptx) I made and presented to the BAR group.
 The BAR team is moving forward using the optimized 6 meter base diameter tower, which gives their trade studies more meaningful LCOE values.
 
 <p align="center">
@@ -77,5 +77,5 @@ Here is a preliminary result showing the initial and final AEP values.
 Our optimization method currently produces results that have higher AEP values than other researchers' methods within the task.
 
 <p align="center">
-  <img src="case_810.png" alt="Optimized layouts for discrete regions" width="750"/>
+  <img src="case_810.png" alt="Optimized layouts for discrete regions" width="700"/>
 </p>
