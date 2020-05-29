@@ -6,6 +6,10 @@ It is a continual work-in-progress and is roughly divided by project.
 
 ## Contributions to WEIS
 
+As part of the ARPA-E Atlantis program, NREL is developing WEIS, the Wind Energy with Integrated Servo-control toolset.
+For this project, I serve as an optimization methods and implementation expert as we adapt tools to be better suited for efficient design optimization.
+Expanding the toolset's capabilities include developing efficient derivative computation methods to enable gradient-based optimization, adding new optimization methods to the stack, and examining the best optimization problem architectures.
+
 ### Efficient derivative computation study
 
 I set up and ran multiple computational experiments to benchmark different ways to compute derivatives for WISDEM, with the [results hosted here](https://github.com/johnjasa/derivative_comparisons).
