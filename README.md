@@ -18,7 +18,7 @@ Analytic derivatives were always the fastest in terms of computational time, but
 The figure below shows an example of how the computational cost of different derivative computation methods scale with the number of inputs to the component.
 
 <p align="center">
-  <img src="total_derivs_num_inputs" alt="Derivative cost scaling with number of inputs" width="500"/>
+  <img src="total_derivs_num_inputs.png" alt="Derivative cost scaling with number of inputs" width="500"/>
 </p>
 
 
@@ -43,7 +43,7 @@ Although not a direct measure of value-add, I have been able to jump into WISDEM
 The graph below shows that I have made the second-most commits to WISDEM in the past month.
 
 <p align="center">
-  <img src="github_wisdem_commits" alt="Contributions to WISDEM" width="500"/>
+  <img src="github_wisdem_commits.png" alt="Contributions to WISDEM" width="500"/>
 </p>
 
 ## BAR tower redesign
@@ -60,7 +60,7 @@ This figure, more studies, and what it means for the BAR project are contained i
 The BAR team is moving forward using the optimized 6 meter base diameter tower, which gives their trade studies more meaningful LCOE values.
 
 <p align="center">
-  <img src="BAR_tower_redesign" alt="Optimized BAR towers" width="500"/>
+  <img src="BAR_tower_redesign.png" alt="Optimized BAR towers" width="500"/>
 </p>
 
 ## IEA Task 37 layout optimization
@@ -73,3 +73,6 @@ This results in the highest AEP values reported for this problem yet using a met
 
 Here is a preliminary result
 
+<p align="center">
+  <img src="case_810.png" alt="Optimized layouts for discrete regions" width="500"/>
+</p>
