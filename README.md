@@ -15,11 +15,11 @@ This comparison study aimed to benchmark derivative computation methods that are
 
 I found that depending on the size of the inputs and outputs to the component, as well as the underlying code complexity, automatic differentiation may be a reasonable solution.
 Analytic derivatives were always the fastest in terms of computational time, but required much more developer time, so they should be implemented only for extreme bottlenecks within the codebase.
-
+The figure below shows an example of how the computational cost of different derivative computation methods scale with the number of inputs to the component.
 
 <p align="center">
   <img src="
-https://github.com/johnjasa/derivative_comparisons/blob/master/total_derivs_num_inputs.png" alt="Problem setup" width="500"/>
+total_derivs_num_inputs" alt="Derivative cost scaling with number of inputs" width="500"/>
 </p>
 
 
@@ -40,6 +40,14 @@ This task is ongoing and Rob Hammond and I are working together to get more adva
 - Set up automated doc generation with the results [hosted here](https://wisdem.readthedocs.io/en/latest/)
 - [Created a script](https://github.com/WISDEM/WISDEM/blob/IEAontology4all/docs/_utils/convert_docstrings.py) to parse WISDEM components and automatically produce docstrings to increase user understanding of the code. These docstrings live in the actual component files and are also automatically rendered on the documentation site. For example, [here is the page for the Tower component in WISDEM](https://wisdem.readthedocs.io/en/latest/wisdem/towerse/documentation.html), showing the API documentation.
 
+Although not a direct measure of value-add, I have been able to jump into WISDEM and contribute to the code from Day 1.
+The graph below shows that I have made the second-most commits to WISDEM in the past month.
+
+<p align="center">
+  <img src="
+github_wisdem_commits" alt="Contributions to WISDEM" width="500"/>
+</p>
+
 ## BAR tower redesign
 
 I optimized the tower used in BAR studies to meet design constraints and lower overall LCOE.
@@ -47,6 +55,7 @@ I optimized the tower used in BAR studies to meet design constraints and lower o
 Because BAR was mostly focused on rotor and blade design, they were using a placeholder tower with linear taper and a 10 meter base diameter.
 However, that original tower did not meet buckling and frequency constraints, and its 10 meter diameter prevented it from being easily transportable.
 To both obtain a better tower design and help get me accustomed to useing WISDEM, I design and performed a series of studies with different design constraints to understand the design space and provide BAR with a more reasonable tower design.
+Pietro and Garrett helped me formulate and interpret these studies.
 
 The image below shows a comparison of optimal tower designs, highlighting which design are feasible.
 This figure, more studies, and what it means for the BAR project are contained in this slide deck I made and presented to the BAR group.
@@ -58,3 +67,12 @@ images/BAR_tower_redesign" alt="Optimized BAR towers" width="500"/>
 </p>
 
 ## IEA Task 37 layout optimization
+
+I'm currently working with Chris Bay on performing turbine layout optimization with multiple discrete concave regions.
+This is part of the IEA Task 37 comparison challenge and [my code is hosted here](https://github.com/johnjasa/iea37_case_study/tree/autograd/cs3-4).
+
+I've implemented a hybrid-nested optimization strategy that uses a gradient-free genetic algorithm to choose the number of turbines to place in each region, then uses a gradient-based local optimization method to fine-tune the placement of the turbines.
+This results in the highest AEP values reported for this problem yet using a method that can run on a laptop instead of a supercomputer.
+
+Here is a preliminary result
+
