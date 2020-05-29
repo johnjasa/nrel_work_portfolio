@@ -18,7 +18,7 @@ Analytic derivatives were always the fastest in terms of computational time, but
 The figure below shows an example of how the computational cost of different derivative computation methods scale with the number of inputs to the component.
 
 <p align="center">
-  <img src="total_derivs_num_inputs.png" alt="Derivative cost scaling with number of inputs" width="500"/>
+  <img src="total_derivs_num_inputs.png" alt="Derivative cost scaling with number of inputs" width="800"/>
 </p>
 
 
@@ -39,13 +39,6 @@ This task is ongoing and Rob Hammond and I are working together to get more adva
 - Set up automated doc generation with the results [hosted here](https://wisdem.readthedocs.io/en/latest/)
 - [Created a script](https://github.com/WISDEM/WISDEM/blob/IEAontology4all/docs/_utils/convert_docstrings.py) to parse WISDEM components and automatically produce docstrings to increase user understanding of the code. These docstrings live in the actual component files and are also automatically rendered on the documentation site. For example, [here is the page for the Tower component in WISDEM](https://wisdem.readthedocs.io/en/latest/wisdem/towerse/documentation.html), showing the API documentation.
 
-Although not a direct measure of value-add, I have been able to jump into WISDEM and contribute to the code from Day 1.
-The graph below shows that I have made the second-most commits to WISDEM in the past month.
-
-<p align="center">
-  <img src="github_wisdem_commits.png" alt="Contributions to WISDEM" width="500"/>
-</p>
-
 ## BAR tower redesign
 
 I optimized the tower used in BAR studies to meet design constraints and lower overall LCOE.
@@ -60,7 +53,7 @@ This figure, more studies, and what it means for the BAR project are contained i
 The BAR team is moving forward using the optimized 6 meter base diameter tower, which gives their trade studies more meaningful LCOE values.
 
 <p align="center">
-  <img src="BAR_tower_redesign.png" alt="Optimized BAR towers" width="500"/>
+  <img src="BAR_tower_redesign.png" alt="Optimized BAR towers" width="800"/>
 </p>
 
 ## IEA Task 37 layout optimization
