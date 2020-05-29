@@ -66,11 +66,16 @@ I'm currently working with Chris Bay on performing turbine layout optimization w
 This is part of the [IEA Task 37 comparison challenge](https://github.com/byuflowlab/iea37-wflo-casestudies/blob/master/cs3-4/iea37-cs3-announcement.pdf) and [my code is hosted here](https://github.com/johnjasa/iea37_case_study/tree/autograd/cs3-4).
 
 I've implemented a hybrid-nested optimization strategy that uses a gradient-free genetic algorithm to choose the number of turbines to place in each region, then uses a gradient-based local optimization method to fine-tune the placement of the turbines.
-This results in the highest AEP values reported for this problem yet using a method that can run on a laptop instead of a supercomputer.
+This method can be run on a laptop instead of a supercomputer.
+The XDSM flowchart for the optimization process is shown below.
+
+<p align="center">
+  <img src="layout_opt_formulation.png" alt="XDSM for layout optimization process" width="800"/>
+</p>
 
 Here is a preliminary result showing the initial and final AEP values.
 Our optimization method currently produces results that have higher AEP values than other researchers' methods within the task.
 
 <p align="center">
-  <img src="case_810.png" alt="Optimized layouts for discrete regions" width="800"/>
+  <img src="case_810.png" alt="Optimized layouts for discrete regions" width="750"/>
 </p>
