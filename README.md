@@ -69,6 +69,7 @@ I've implemented a hybrid-nested optimization strategy that uses a gradient-free
 This results in the highest AEP values reported for this problem yet using a method that can run on a laptop instead of a supercomputer.
 
 Here is a preliminary result showing the initial and final AEP values.
+Our optimization method currently produces results that have higher AEP values than other researchers' methods within the task.
 
 <p align="center">
   <img src="case_810.png" alt="Optimized layouts for discrete regions" width="800"/>
