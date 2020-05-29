@@ -22,7 +22,7 @@ Analytic derivatives were always the fastest in terms of computational time, but
 The figure below shows an example of how the computational cost of different derivative computation methods scale with the number of inputs to the component.
 
 <p align="center">
-  <img src="total_derivs_num_inputs.png" alt="Derivative cost scaling with number of inputs" width="800"/>
+  <img src="total_derivs_num_inputs.png" alt="Derivative cost scaling with number of inputs" width="500"/>
 </p>
 
 
@@ -63,7 +63,7 @@ The BAR team is moving forward using the optimized 6 meter base diameter tower, 
 ## IEA Task 37 layout optimization
 
 I'm currently working with Chris Bay on performing turbine layout optimization with multiple discrete concave regions.
-This is part of the IEA Task 37 comparison challenge and [my code is hosted here](https://github.com/johnjasa/iea37_case_study/tree/autograd/cs3-4).
+This is part of the [IEA Task 37 comparison challenge](https://github.com/byuflowlab/iea37-wflo-casestudies/blob/master/cs3-4/iea37-cs3-announcement.pdf) and [my code is hosted here](https://github.com/johnjasa/iea37_case_study/tree/autograd/cs3-4).
 
 I've implemented a hybrid-nested optimization strategy that uses a gradient-free genetic algorithm to choose the number of turbines to place in each region, then uses a gradient-based local optimization method to fine-tune the placement of the turbines.
 This results in the highest AEP values reported for this problem yet using a method that can run on a laptop instead of a supercomputer.
