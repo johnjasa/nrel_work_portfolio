@@ -1,6 +1,6 @@
 # John Jasa's NREL work portfolio
 
-This portfolio serves to document and highlight my contributions to NREL projects, focusing on deliverables and tangible value-add.
+This portfolio serves to highlight my contributions to NREL projects, focusing on deliverables and tangible value-add.
 
 It is a continual work-in-progress and is roughly divided by project.
 
@@ -22,7 +22,7 @@ Analytic derivatives were always the fastest in terms of computational time, but
 The figure below shows an example of how the computational cost of different derivative computation methods scale with the number of inputs to the component.
 
 <p align="center">
-  <img src="total_derivs_num_inputs.png" alt="Derivative cost scaling with number of inputs" width="500"/>
+  <img src="total_derivs_num_inputs.png" alt="Derivative cost scaling with number of inputs" width="650"/>
 </p>
 
 
