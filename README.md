@@ -45,7 +45,7 @@ This task is ongoing and Rob Hammond and I are working together to get more adva
 
 ## BAR tower redesign
 
-I optimized the tower used in BAR studies to meet design constraints and lower overall LCOE.
+I optimized the tower used in the [BAR project](https://www.energy.gov/sites/prod/files/2019/05/f62/SNL-T17-%20Paquette.pdf) to meet design constraints and lower overall LCOE.
 
 Because BAR was mostly focused on rotor and blade design, they were using a placeholder tower with linear taper and a 10 meter base diameter.
 However, that original tower did not meet buckling and frequency constraints, and its 10 meter diameter prevented it from being easily transportable.
