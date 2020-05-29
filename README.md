@@ -53,7 +53,7 @@ This figure, more studies, and what it means for the BAR project are contained i
 The BAR team is moving forward using the optimized 6 meter base diameter tower, which gives their trade studies more meaningful LCOE values.
 
 <p align="center">
-  <img src="BAR_tower_redesign.png" alt="Optimized BAR towers" width="800"/>
+  <img src="bar_tower_redesign.png" alt="Optimized BAR towers" width="800"/>
 </p>
 
 ## IEA Task 37 layout optimization
@@ -64,7 +64,7 @@ This is part of the IEA Task 37 comparison challenge and [my code is hosted here
 I've implemented a hybrid-nested optimization strategy that uses a gradient-free genetic algorithm to choose the number of turbines to place in each region, then uses a gradient-based local optimization method to fine-tune the placement of the turbines.
 This results in the highest AEP values reported for this problem yet using a method that can run on a laptop instead of a supercomputer.
 
-Here is a preliminary result
+Here is a preliminary result showing the initial and final AEP values.
 
 <p align="center">
   <img src="case_810.png" alt="Optimized layouts for discrete regions" width="500"/>
