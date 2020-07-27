@@ -37,24 +37,9 @@ This task is ongoing and Rob Hammond and I are working together to get more adva
 - Set up automated doc generation with the results [hosted here](https://wisdem.readthedocs.io/en/latest/)
 - [Created a script](https://github.com/WISDEM/WISDEM/blob/IEAontology4all/docs/_utils/convert_docstrings.py) to parse WISDEM components and automatically produce docstrings to increase user understanding of the code. These docstrings live in the actual component files and are also automatically rendered on the documentation site. For example, [here is the page for the Tower component in WISDEM](https://wisdem.readthedocs.io/en/latest/wisdem/towerse/documentation.html), showing the API documentation.
 
-## BAR tower redesign
-
-I optimized the tower used in the [BAR project](https://www.energy.gov/sites/prod/files/2019/05/f62/SNL-T17-%20Paquette.pdf) to meet design constraints and lower overall LCOE.
-
-Because BAR was mostly focused on rotor and blade design, they were using a placeholder tower with linear taper and a 10 meter base diameter.
-However, that original tower did not meet buckling and frequency constraints, and its 10 meter diameter prevented it from being easily transportable.
-To both obtain a better tower design and help get me accustomed to useing WISDEM, I design and performed a series of studies with different design constraints to understand the design space and provide BAR with a more reasonable tower design.
-Pietro and Garrett helped me formulate and interpret these studies.
-
-The image below shows a comparison of optimal tower designs, highlighting which design are feasible.
-This figure, more studies, and what it means for the BAR project are contained in [this slide deck](https://github.com/johnjasa/nrel_work_portfolio/blob/master/BAR_tower_optimization_results.pptx) I made and presented to the BAR group.
-The BAR team is moving forward using the optimized 6 meter base diameter tower, which gives their trade studies more meaningful LCOE values.
-
-<p align="center">
-  <img src="bar_tower_redesign.png" alt="Optimized BAR towers" width="800"/>
-</p>
-
 ## IEA Task 37 layout optimization
+
+This is a continuation of the work [I originally presented here](https://github.com/johnjasa/nrel_work_portfolio/tree/master/2020_04-05#iea-task-37-layout-optimization).
 
 I'm currently working with Chris Bay on performing turbine layout optimization with multiple discrete concave regions.
 This is part of the [IEA Task 37 comparison challenge](https://github.com/byuflowlab/iea37-wflo-casestudies/blob/master/cs3-4/iea37-cs3-announcement.pdf) and [my code is hosted here](https://github.com/johnjasa/iea37_case_study/tree/autograd/cs3-4).
