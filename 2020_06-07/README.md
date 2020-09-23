@@ -28,7 +28,7 @@ This suggested that multifidelity methods are worth developing further.
 The table below has more comparison numbers from this study.
 
 <p align="center">
-  <img src="mfm_timnig.png" alt="Timing comparisons for the multifidelity method using actual wind turbine design codes" width="650"/>
+  <img src="mfm_timing.png" alt="Timing comparisons for the multifidelity method using actual wind turbine design codes" width="650"/>
 </p>
 
 Efforts from this work and more will be included in a journal paper that I will write once we evaluate more complex constrained optimization problems. 
