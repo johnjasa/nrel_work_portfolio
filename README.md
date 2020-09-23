@@ -8,3 +8,4 @@ My efforts are summarized into two-month bins linked below:
 
 - [April-May 2020](2020_04-05/README.md)
 - [June-July 2020](2020_06-07/README.md)
+- [August-September 2020](2020_08-09/README.md)
