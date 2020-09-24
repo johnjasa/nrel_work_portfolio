@@ -30,6 +30,7 @@ This wrapper is slightly less full featured than the NLopt driver.
 After running some performance benchmarks for representative optimization problems, we found that the DAKOTA optimizers performed at 2-3x the computational cost due to the additional overhead required for file IO, which suggests **DAKOTA is not useful for most of our use cases**.
 This DAKOTA driver is useful for more expensive analyses or uncertainty-based optimization.
 
+Completion of this DAKOTA driver, along with the NLopt driver, marks **a completed deliverable for the WEIS project**.
 
 ## Miscellaneous tasks completed
 

@@ -44,9 +44,9 @@ It is fully tested and verified for multiple types of constrained nonlinear opti
 
 ### WISDEM documentation and code quality improvement
 
-- Contributed to many bugfixes and code cleanup commits
-- Introduced Coveralls to show where we need to improve testing
-- Added docs throughout, link to them here
+As we continue to develop WISDEM, I contributed to many bugfixes and code cleanup commits.
+Additionally, I introduced Coveralls to find where we need to improve testing.
+I also added a [doc structure](https://wisdem.readthedocs.io/en/latest/) and fleshed out docs throughout WISDEM.
 
 ## IEA Task 37 layout optimization
 
