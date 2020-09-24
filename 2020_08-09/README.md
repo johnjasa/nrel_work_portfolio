@@ -19,7 +19,7 @@ Specifically, I've had discussions with CCD team members and now attend the CCD 
 This work is ongoing and will continue now that we better understand each team member's role.
 
 At the same time, I am focusing my efforts in developing a journal paper on this multifidelity work.
-Continued discussions have focused my priorities to developing a set of aerodynamic and aerostructural blade design problems for this paper.
+Continued discussions have **focused my priorities to developing a set of aerodynamic and aerostructural blade design problems for this paper**.
 I have successfully set up the CCBlade and AeroDyn multifidelity cases on the HPC system Eagle and can now run cases for this paper.
 It's a continual effort to analyze and refine the optimization problems as we increase model and optimization problem complexity.
 
@@ -27,7 +27,7 @@ It's a continual effort to analyze and refine the optimization problems as we in
 
 Continuing the task within WEIS to introduce additional optimization libraries, I implemented a [wrapper for DAKOTA](https://github.com/WISDEM/WEIS/blob/master/weis/optimization_drivers/dakota_driver.py), which has a slightly different API due to DAKOTA requiring file IO to perform optimization.
 This wrapper is slightly less full featured than the NLopt driver.
-After running some performance benchmarks for representative optimization problems, we found that the DAKOTA optimizers performed at 2-3x the computational cost due to the additional overhead required for file IO.
+After running some performance benchmarks for representative optimization problems, we found that the DAKOTA optimizers performed at 2-3x the computational cost due to the additional overhead required for file IO, which suggests **DAKOTA is not useful for most of our use cases**.
 This DAKOTA driver is useful for more expensive analyses or uncertainty-based optimization.
 
 
